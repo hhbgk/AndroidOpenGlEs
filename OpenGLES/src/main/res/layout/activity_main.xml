@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="First OpenGL ES 2.0"
@@ -17,11 +17,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/AirHockey1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AirHockey1"
         android:onClick="onClickAirHockey"
-        app:layout_constraintTop_toBottomOf="@id/button1"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AirHockey2"
+        android:onClick="onClickAirHockey2"
+        app:layout_constraintTop_toBottomOf="@id/AirHockey1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 

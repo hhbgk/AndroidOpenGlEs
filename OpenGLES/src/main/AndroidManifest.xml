@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".first.FirstOpenGlEsActivity"/>
         <activity android:name=".game.AirHockeyActivity" />
+        <activity android:name=".game2.AirHockey2Activity" />
     </application>
 
 </manifest>
