@@ -8,6 +8,7 @@ import android.view.View;
 import com.hhbgk.android.opengles.first.FirstOpenGlEsActivity;
 import com.hhbgk.android.opengles.game.AirHockeyActivity;
 import com.hhbgk.android.opengles.game2.AirHockey2Activity;
+import com.hhbgk.android.opengles.game3Ortho.AirHockey3Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickAirHockey2(View view) {
         startActivity(new Intent(this, AirHockey2Activity.class));
+    }
+
+    public void onClickAirHockey3Ortho(View view) {
+        startActivity(new Intent(this, AirHockey3Activity.class));
     }
 }

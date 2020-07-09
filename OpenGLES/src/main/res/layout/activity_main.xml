@@ -27,11 +27,21 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
+        android:id="@+id/AirHockey2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AirHockey2"
         android:onClick="onClickAirHockey2"
         app:layout_constraintTop_toBottomOf="@id/AirHockey1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AirHockey3Ortho"
+        android:onClick="onClickAirHockey3Ortho"
+        app:layout_constraintTop_toBottomOf="@id/AirHockey2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
